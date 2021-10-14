@@ -7,7 +7,8 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-
+// var firstItem = arr[0]
+// console.log(firstItem)
 
 ////////// PROBLEM 2 //////////
 /*
@@ -15,7 +16,9 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+// var lastItemRemoved =arr.pop()
 
+// console.log(lastItemRemoved)
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
@@ -27,7 +30,10 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+// for(let i=0;i<family.length; i++){
+//   console.log(family[i])
 
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -42,7 +48,13 @@ let evensArr = []
 */
 
 //Code Here
-
+for(let i=0;i<nums.length; i++){
+  
+  if(nums[i]%2==0){
+    evensArr.push(nums[i])
+  }
+}
+console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -56,7 +68,17 @@ var score = 74
 */
 
 //Code Here
-
+if(score>=90 ){
+console.log("A")
+}else if(score>=80 && score<=89){
+  console.log("B")
+}else if(score>=70 && score<=79){
+  console.log("C")
+}else if(score>=60 && score<=69){
+  console.log("D")
+}else if(score<60){
+  console.log("F")
+}
 
 ////////// Intermediate Problems //////////
 
